@@ -1,0 +1,75 @@
+:root {
+    --border-width: 6px;
+}
+
+* {
+    box-sizing: border-box;
+    background-color: floralwhite;
+}
+
+body {
+    width: 100%;
+    background-color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    empty-cells: show;
+    background-color: #fefefe;
+    border: var(--border-width) solid black;
+    width: 500px;
+    height: 500px;
+    margin: 6px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 0px none transparent;
+}
+
+.border-left {
+    border-left: var(--border-width) solid black;
+}
+
+.border-top {
+    border-top: var(--border-width) solid black;
+}
+
+.border-right {
+    border-right: var(--border-width) solid black;
+}
+
+.border-bottom {
+    border-bottom: var(--border-width) solid black;
+}
+
+.red {
+    background-color: #da422a;
+}
+
+.yellow {
+    background-color: #f8ce2e;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: #3c5f99;
+}
+
+.small {
+    height: 50px;
+}
+
+.medium {
+    height: 70px;
+}
+
+.large {
+    height: 100px;
+}
